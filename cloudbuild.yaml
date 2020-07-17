@@ -1,0 +1,9 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/lowes-pos-modernization-82913/product:$TAG_NAME', '.']
+  timeout: 500s
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/lowes-pos-modernization-82913/product', '.']
+  timeout: 500s
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/lowes-pos-modernization-82913/product']
