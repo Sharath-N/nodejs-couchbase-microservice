@@ -2,7 +2,7 @@
 
 ### Introduction 
  
-The repository contains a simple product micro service illustration using NodeJS BackEnd and Couchbase Database with Error Handling.
+The repository contains a simple product micro service illustration of CRUD(Create, Retrieve, Update, Delete) operations using NodeJS BackEnd and Couchbase Database with Error Handling.
 
 ---
 ### Software Dependencies
